@@ -29,7 +29,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## works with makeCacheMatrix.R
 ## If the inverse matrix exists, it retrieves it from cache
 ## If the inverse does not exist, it creates it
-
 cacheSolve <- function(x, ...) {
   
   # get the inerse value from cache (it may be NULL)
